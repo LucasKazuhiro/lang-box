@@ -2,7 +2,8 @@ name: update gist
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    # runs at 12 AM BRT (São Paulo Time)
+    - cron: "0 3 * * *"
   workflow_dispatch:
 
 jobs:
